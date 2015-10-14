@@ -1,0 +1,266 @@
+.navbar-header{
+	padding-left: 10%;
+}
+.navbar-toggle .icon-bar:nth-of-type(2) {
+	  top: 1px;
+}
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  	top: 2px;
+}
+.navbar-nav{
+	float: right;
+	padding-right: 9%;
+	font-family:Montserrat;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background-color: #0B0B3B;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	background-color: #0B0B3B;
+}
+.navbar-toggle .icon-bar {
+	  position: relative;
+	  transition: all 500ms ease-in-out;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+	  top: 6px;
+	  transform: rotate(45deg);
+	  background-color: gray;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+	  background-color: transparent;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+	  top: -6px;
+	  transform: rotate(-45deg);
+}
+/*---*/
+.navbar-fixed-top { 
+	background-color:#323b4a;
+} 
+h1{ 
+	color:white; 
+	font-family:Montserrat;
+	margin: 0%;
+}
+/*::::::::*/
+.page{
+	background-color: #3dc091;}
+.star{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-family:Montserrat;
+	font-size: 3em;
+	padding-top: 10%;
+}
+.line-blue{
+	width: 8%;
+	border: 2px white solid;
+	display:inline-block;
+	margin-bottom: 7px;
+}
+.line-blue2{
+	width: 5%;
+	border: 2px #323b4a solid;
+	display:inline-block;
+	margin-bottom: 7px;
+}
+.icon .fa-star{
+	color: white;
+	text-align: center;
+	font-size: 0.5em;
+}
+.icon2 .fa-start{
+	color: #323b4a;
+	text-align: center;
+	font-size: 0.5em;
+}
+.descrition{
+	color: white;
+	text-align: center;
+	font-size: 1em;
+	padding-bottom: 6%;
+}
+
+.portfolio{
+	text-align: center;
+	color: #323b4a;
+	text-transform: uppercase;
+	font-family:Montserrat;
+	font-size: 2em;
+	padding-top: 3%;
+}
+.contenido .fa-box{
+	position: absolute;
+	left: 0%; 
+	width: 100%; 
+	top:45%;
+	color: transparent;
+}
+.portfolio a:hover i{
+	color: white;}
+.portfolio a:hover{
+	background-color: green;}
+.portfolio a{
+	float: left;}
+.portfolio-url{
+	font-size: 2em;
+}
+.img-responsive:hover{
+	opacity: 0.6;
+	width: 100%;
+}
+/*uti*/
+.pt-10{
+	padding-top: 10%;
+}
+.pt-16{
+	padding-top: 16%;
+}
+.pl-15{
+	padding-left: 15%
+}
+.pl-20{
+	padding-left: 20%;
+}
+.pr-15{
+	padding-right: 15%
+}
+.pr-20{
+	padding-right: 20%
+}
+.pt-3{
+	padding-top: 3%;
+	} 
+.pb-3{
+	padding-bottom: 3%;
+}
+.mb{
+	margin-bottom: 5%;
+}
+/* ::::ABAOUT::::*/
+#about{
+	background-color: #3dc091;
+}
+.about{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-family:Montserrat;
+	font-size: 2em;
+	padding-top: 6%;
+}
+.button{
+	text-align: center;
+	padding-bottom: 3%;
+}
+/*:::::CONTAC ME:::::*/
+.contact-me{
+	text-align: center;
+	color: #323b4a;
+	text-transform: uppercase;
+	font-family:Montserrat;
+	font-size: 2em;
+	padding-top: 3%;
+}
+#email{
+	width: 98%;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+#name{
+	display: block;
+	width: 98%;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+#phone{
+	display: block;
+	width: 98%;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+#message{
+	display: block;
+	width: 98%;
+	padding: 2%;
+	padding-bottom: 18%;
+	margin-bottom: 2%;
+}
+.btn{
+	background-color:#3dc091;
+	color:white;
+}
+/*::::FOOTER::::*/
+#info{
+	background-color:  #323b4a;
+	margin-top: 5%;
+}
+.info-f{
+	text-align: center;
+	padding-top: 3%;
+}
+p{
+	color: white;
+}
+h5{
+	color: white;
+	font-family: Montserrat;
+	font-size: 16px;
+	margin-bottom: 10%;
+}
+.redes li {
+	padding: 2% 3%;
+	margin-right: 5%;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px white solid;
+}
+.redes{padding: 0%;}
+.redes a{
+	color: white;
+}
+.redes a:hover{
+	color:  #3dc091;
+}
+.copy{
+	font-size: 0.7em;
+	text-align: center;
+	color: black;
+	background-color:white;
+	opacity: 0.2;
+	padding: 1%;
+	margin: 0;
+}
+.text-footer{
+	font-size: 1em;
+}
+/*:::::ABOUT.HTML:::::*/
+.img-circle{
+	width: 25%;
+}
+.cb{
+	color: black;
+}
+.bg-white{
+	padding: 5% 12%;
+
+}
+.subtitle{
+	font-family:Montserrat;
+	font-weight: 800;
+	margin-bottom: 0%;
+}
+/*::::::BLOG:::::*/
+#subtitle{
+	font-family:Montserrat;
+	font-size: 2.3em;
+	padding-right: 2%;
+	color: #3dc091;
+}
+input.form-control{
+	border:none;
+}
+
+
